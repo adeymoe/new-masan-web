@@ -1,6 +1,6 @@
 import React from 'react'
-import {motion} from 'framer-motion'
-import {slideUpVariants, zoomInVariants} from './animation'
+import { motion } from 'framer-motion'
+import { slideUpVariants, zoomInVariants } from './animation'
 import masan from '../assets/MASAN.jpg'
 import masan1 from '../assets/MASAN1.jpg'
 import masan2 from '../assets/MASAN2.jpg'
@@ -76,58 +76,59 @@ const Portfolio = () => {
           className='w-[120px] h-[6px] bg-yellow-500'
         >
         </motion.div>
-      </motion.div>
+      
       <motion.div
-          initial='hidden'
-          whileInView='visible'
-          variants={zoomInVariants}
-          className='w-full m-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1'
-        >
-          <img src={masan} alt="project image" className='h-[250px] w-full' />
-          <img src={masan15} alt="project image" className='h-[250px] w-full' />
-          <img src={masan2} alt="project image" className='h-[250px] w-full' />
-          <img src={masan7} alt="project image" className='h-[250px] w-full' />
-          <img src={masan12} alt="project image" className='h-[250px] w-full' />
-          <img src={masan5} alt="project image" className='h-[250px] w-full' />
-          <img src={masan9} alt="project image" className='h-[250px] w-full' />
-          <img src={masan1} alt="project image" className='h-[250px] w-full' />
-          <img src={masan29} alt="project image" className='h-[250px] w-full' />
-          <img src={masan30} alt="project image" className='h-[250px] w-full' />
-          <img src={masan23} alt="project image" className='h-[250px] w-full' />
-          <img src={masan26} alt="project image" className='h-[250px] w-full' />
-          <img src={masan21} alt="project image" className='h-[250px] w-full' />
-          <img src={masan24} alt="project image" className='h-[250px] w-full' />
-          <img src={masan4} alt="project image" className='h-[250px] w-full' />
-          <img src={masan10} alt="project image" className='h-[250px] w-full' />
-          <img src={masan22} alt="project image" className='h-[250px] w-full' />
-          <img src={masan11} alt="project image" className='h-[250px] w-full' />
-          <img src={masan3} alt="project image" className='h-[250px] w-full' />
-          <img src={masan27} alt="project image" className='h-[250px] w-full' />
-          <img src={masan31} alt="project image" className='h-[250px] w-full' />
-          <img src={masan34} alt="project image" className='h-[250px] w-full' />
-          <img src={masan43} alt="project image" className='h-[250px] w-full' />
-          <img src={masan33} alt="project image" className='h-[250px] w-full' />
-          <img src={masan37} alt="project image" className='h-[250px] w-full' />
-          <img src={masan38} alt="project image" className='h-[250px] w-full' />
-          <img src={masan48} alt="project image" className='h-[250px] w-full' />
-          <img src={masan25} alt="project image" className='h-[250px] w-full' />
-          <img src={masan13} alt="project image" className='h-[250px] w-full' />
-          <img src={masan6} alt="project image" className='h-[250px] w-full' />
-          <img src={masan40} alt="project image" className='h-[250px] w-full' />
-          <img src={masan46} alt="project image" className='h-[250px] w-full' />
-          <img src={masan35} alt="project image" className='h-[250px] w-full' />
-          <img src={masan42} alt="project image" className='h-[250px] w-full' />
-          <img src={masan8} alt="project image" className='h-[250px] w-full' />
-          <img src={masan41} alt="project image" className='h-[250px] w-full' />
-          <img src={masan14} alt="project image" className='h-[250px] w-full' />
-          <img src={masan28} alt="project image" className='h-[250px] w-full' />
-          <img src={masan47} alt="project image" className='h-[250px] w-full' />
-          <img src={masan32} alt="project image" className='h-[250px] w-full' />
-          <img src={masan39} alt="project image" className='h-[250px] w-full' />
-          <img src={masan44} alt="project image" className='h-[250px] w-full' />
-          <img src={masan20} alt="project image" className='h-[250px] w-full' />
-          <img src={masan36} alt="project image" className='h-[250px] w-full' />
-        </motion.div>
+        // initial='hidden'
+        // whileInView='visible'
+        // variants={zoomInVariants}
+        className='w-full m-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1'
+      >
+        <img src={masan} alt="project image" className='h-[250px] w-full' />
+        <img src={masan15} alt="project image" className='h-[250px] w-full' />
+        <img src={masan2} alt="project image" className='h-[250px] w-full' />
+        <img src={masan7} alt="project image" className='h-[250px] w-full' />
+        <img src={masan12} alt="project image" className='h-[250px] w-full' />
+        <img src={masan5} alt="project image" className='h-[250px] w-full' />
+        <img src={masan9} alt="project image" className='h-[250px] w-full' />
+        <img src={masan1} alt="project image" className='h-[250px] w-full' />
+        <img src={masan29} alt="project image" className='h-[250px] w-full' />
+        <img src={masan30} alt="project image" className='h-[250px] w-full' />
+        <img src={masan23} alt="project image" className='h-[250px] w-full' />
+        <img src={masan26} alt="project image" className='h-[250px] w-full' />
+        <img src={masan21} alt="project image" className='h-[250px] w-full' />
+        <img src={masan24} alt="project image" className='h-[250px] w-full' />
+        <img src={masan4} alt="project image" className='h-[250px] w-full' />
+        <img src={masan10} alt="project image" className='h-[250px] w-full' />
+        <img src={masan22} alt="project image" className='h-[250px] w-full' />
+        <img src={masan11} alt="project image" className='h-[250px] w-full' />
+        <img src={masan3} alt="project image" className='h-[250px] w-full' />
+        <img src={masan27} alt="project image" className='h-[250px] w-full' />
+        <img src={masan31} alt="project image" className='h-[250px] w-full' />
+        <img src={masan34} alt="project image" className='h-[250px] w-full' />
+        <img src={masan43} alt="project image" className='h-[250px] w-full' />
+        <img src={masan33} alt="project image" className='h-[250px] w-full' />
+        <img src={masan37} alt="project image" className='h-[250px] w-full' />
+        <img src={masan38} alt="project image" className='h-[250px] w-full' />
+        <img src={masan48} alt="project image" className='h-[250px] w-full' />
+        <img src={masan25} alt="project image" className='h-[250px] w-full' />
+        <img src={masan13} alt="project image" className='h-[250px] w-full' />
+        <img src={masan6} alt="project image" className='h-[250px] w-full' />
+        <img src={masan40} alt="project image" className='h-[250px] w-full' />
+        <img src={masan46} alt="project image" className='h-[250px] w-full' />
+        <img src={masan35} alt="project image" className='h-[250px] w-full' />
+        <img src={masan42} alt="project image" className='h-[250px] w-full' />
+        <img src={masan8} alt="project image" className='h-[250px] w-full' />
+        <img src={masan41} alt="project image" className='h-[250px] w-full' />
+        <img src={masan14} alt="project image" className='h-[250px] w-full' />
+        <img src={masan28} alt="project image" className='h-[250px] w-full' />
+        <img src={masan47} alt="project image" className='h-[250px] w-full' />
+        <img src={masan32} alt="project image" className='h-[250px] w-full' />
+        <img src={masan39} alt="project image" className='h-[250px] w-full' />
+        <img src={masan44} alt="project image" className='h-[250px] w-full' />
+        <img src={masan20} alt="project image" className='h-[250px] w-full' />
+        <img src={masan36} alt="project image" className='h-[250px] w-full' />
+      </motion.div>
+      </motion.div>
     </div>
   )
 }
